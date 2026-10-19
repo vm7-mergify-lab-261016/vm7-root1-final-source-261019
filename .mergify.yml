@@ -1,0 +1,6 @@
+merge_protections:
+  - name: VM7 Root1 fresh source Owner approval veto 261019
+    if:
+      - base = vm7-root1-final-sensitive-261019
+    success_conditions:
+      - approved-reviews-by = onecursor13-vm7-primary-20261012
